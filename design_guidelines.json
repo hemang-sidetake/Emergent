@@ -1,0 +1,158 @@
+{
+  "theme_and_archetype": {
+    "primary_theme": "light",
+    "archetype_id": 4,
+    "archetype_name": "Swiss & High-Contrast (Editorial Variant)",
+    "description": "A high-craft, reading-focused editorial experience designed for founders. Blends Archetype 4 (Swiss clarity) with Archetype 1 (Organic paper warmth). It feels like reading a premium broadsheet like the Financial Times or a Morning Brew editorial, structured in a modern app like Arc or Linear."
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Fraunces, serif",
+        "url": "https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap",
+        "description": "Striking, variable-weight serif for major headlines and mastheads. Gives the artifact a distinct, classic-yet-modern editorial edge."
+      },
+      "editorial_body": {
+        "family": "Newsreader, serif",
+        "url": "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap",
+        "description": "High-legibility serif specifically crafted for continuous on-screen reading. Used for the actual briefing content."
+      },
+      "ui_sans": {
+        "family": "Manrope, sans-serif",
+        "url": "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap",
+        "description": "Sharp, geometric, modern sans for datelines, UI controls, right-panel metadata, and the Demo Console."
+      }
+    },
+    "scale": {
+      "masthead": "text-6xl md:text-7xl font-light tracking-tighter leading-none",
+      "h1": "text-4xl sm:text-5xl font-medium tracking-tight leading-tight",
+      "h2": "text-2xl sm:text-3xl font-medium tracking-tight",
+      "h3": "text-xl font-medium",
+      "body_reading": "text-lg leading-relaxed tracking-normal",
+      "ui_body": "text-sm leading-normal",
+      "dateline_meta": "text-xs uppercase tracking-[0.2em] font-bold"
+    }
+  },
+  "color_system": {
+    "light": {
+      "background": "#F7F5F0",
+      "foreground": "#161616",
+      "card": "#FFFFFF",
+      "card_foreground": "#161616",
+      "border": "#E2DFD8",
+      "muted": "#EBE8E0",
+      "muted_foreground": "#6B6A68",
+      "accent": "#F0EDE5",
+      "accent_foreground": "#161616",
+      "primary": "#D35400",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#2C3E50",
+      "secondary_foreground": "#FFFFFF",
+      "ring": "#D35400",
+      "states": {
+        "silent": "#6B6A68",
+        "attention": "#F39C12",
+        "escalation": "#D35400",
+        "decision": "#2C3E50"
+      }
+    },
+    "dark": {
+      "background": "#0E1015",
+      "foreground": "#EAE9E4",
+      "card": "#15181E",
+      "card_foreground": "#EAE9E4",
+      "border": "#262933",
+      "muted": "#1F2229",
+      "muted_foreground": "#8F93A3",
+      "accent": "#1F2229",
+      "accent_foreground": "#EAE9E4",
+      "primary": "#E67E22",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#415C77",
+      "secondary_foreground": "#FFFFFF",
+      "ring": "#E67E22",
+      "states": {
+        "silent": "#8F93A3",
+        "attention": "#F5B041",
+        "escalation": "#E67E22",
+        "decision": "#5D8AA8"
+      }
+    }
+  },
+  "layout_and_spacing": {
+    "strategy": "Single-column reading experience with a right-side functional companion panel.",
+    "grid": {
+      "container": "flex w-full min-h-screen",
+      "main_reading_column": "flex-1 flex justify-center px-4 sm:px-8 py-16 md:py-24 overflow-y-auto",
+      "reading_content_wrapper": "w-full max-w-[640px] space-y-16",
+      "right_companion_panel": "hidden lg:flex w-80 lg:w-96 flex-col border-l border-border bg-card/50 backdrop-blur-xl h-screen sticky top-0 px-6 py-8"
+    },
+    "newspaper_elements": {
+      "masthead_border": "border-y-2 border-foreground py-4 my-8",
+      "drop_cap": "float-left text-6xl leading-[0.8] pr-2 pt-2 font-heading font-light"
+    }
+  },
+  "motion_and_interactions": {
+    "global": "Subtle, refined micro-interactions. No bouncing or spring-heavy physics.",
+    "transitions": "transition-all duration-300 ease-in-out",
+    "reading_sections": "Staggered fade-up on scroll (y: 10, opacity: 0 to 1, duration: 0.6s).",
+    "cinematic_regeneration": {
+      "trigger": "Cmd+K (Demo Console) -> Execute 'Regenerate Brief'",
+      "animation": "Screen dims to bg-black/80 backdrop-blur-md, abstract texture overlay fades in. Text scrambles/decodes into place using a monospace/sans swap effect before the new brief settles."
+    }
+  },
+  "component_guidelines": {
+    "morning_brief": {
+      "description": "The main content area. Broken into 4 distinct editorial sections.",
+      "sections": [
+        "One Thing Today (Hero insight, uses drop cap)",
+        "Three to Handle Personally (Bulleted/numbered list with generous spacing)",
+        "One to Cancel (Strikethrough styling or muted blockquote)",
+        "One to Revive (Highlighted or indented emphasis)"
+      ]
+    },
+    "daily_companion": {
+      "description": "Right side panel showing AI context states.",
+      "states": [
+        { "name": "Silent", "visual": "Muted text, minimal border, no background." },
+        { "name": "Attention Required", "visual": "Subtle yellow/amber left border, bolded title." },
+        { "name": "Escalation", "visual": "Solid background in light orange/red tint, dark text, pulsing indicator dot." },
+        { "name": "Decision Needed", "visual": "Interactive block with inline 'Approve/Decline' ghost buttons." }
+      ]
+    },
+    "evening_close": {
+      "description": "90-second reflection flow.",
+      "layout": "Takes over the main column. Minimalist. One question at a time vertically centered.",
+      "input": "Naked input field (border-b only) or large text-area with no visible border until focused. Uses the Serif reading font for input text."
+    },
+    "demo_console": {
+      "description": "Hidden judge palette triggered via Cmd+K.",
+      "style": "Glassmorphism. backdrop-blur-2xl bg-black/60 (dark mode forced). Sharp 1px white/10 border. Uses Manrope font exclusively."
+    }
+  },
+  "media_assets": {
+    "images": {
+      "founder_avatar": {
+        "url": "https://images.pexels.com/photos/7580837/pexels-photo-7580837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Priya Mehrotra demo persona avatar (Confident Indian female founder in a professional setting).",
+        "usage": "Top right of the Daily Companion panel."
+      },
+      "abstract_texture": {
+        "url": "https://images.unsplash.com/photo-1601662528567-526cd06f6582?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYWJzdHJhY3QlMjB0ZXh0dXJlJTIwcGFwZXIlMjBncmFpbnxlbnwwfHx8fDE3ODAxNDMwMjJ8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Minimalist paper grain texture.",
+        "usage": "Use as a fixed background overlay with mix-blend-multiply (light mode) or opacity-5 (dark mode) to give the 'artifact/paper' feel."
+      }
+    }
+  },
+  "testing": {
+    "requirements": "All interactive elements, buttons, and form inputs MUST include `data-testid` attributes (e.g., `data-testid='regenerate-brief-button'`)."
+  },
+  "instructions_to_main_agent": [
+    "Prioritize HTML semantics and typography hierarchy over complex component nesting.",
+    "Use standard Tailwind CSS combined with custom font configurations in tailwind.config.js for Fraunces, Newsreader, and Manrope.",
+    "Do NOT use standard Shadcn cards for the main Morning Brief; build it with raw divs and typographic rules to maintain the editorial newspaper look.",
+    "For the right-side Daily Companion, you may use heavily customized Shadcn components (like ScrollArea or subtle Separators).",
+    "Implement the 'Imagine this in Slack' and 'Imagine this in Email' as static mockup overlays or dedicated sub-pages with realistic structural borders.",
+    "Apply `max-w-[640px]` strictly to the brief reading column to ensure optimal line lengths (65-75 characters)."
+  ]
+}
