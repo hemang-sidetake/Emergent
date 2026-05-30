@@ -1,0 +1,47 @@
+[
+  {
+    "id": "loop-1",
+    "item": "Bharat — Lightspeed warm intro",
+    "lastTouched": "5 days ago",
+    "ageDays": 5,
+    "expiresIn": "Friday",
+    "category": "fundraise",
+    "weight": 5
+  },
+  {
+    "id": "loop-2",
+    "item": "Naveen / Antler — term sheet shape",
+    "lastTouched": "3 weeks ago",
+    "ageDays": 21,
+    "expiresIn": null,
+    "category": "fundraise",
+    "weight": 3
+  },
+  {
+    "id": "loop-3",
+    "item": "Anil Joshi — Mumbai dashboard escalation",
+    "lastTouched": "3 days ago",
+    "ageDays": 3,
+    "expiresIn": "Now (churn risk)",
+    "category": "customer",
+    "weight": 5
+  },
+  {
+    "id": "loop-4",
+    "item": "Engineering sprint failures",
+    "lastTouched": "Recurring, no plan",
+    "ageDays": 14,
+    "expiresIn": null,
+    "category": "internal",
+    "weight": 3
+  },
+  {
+    "id": "loop-5",
+    "item": "CTO hiring pipeline",
+    "lastTouched": "2 ghosted, 2 in late stages",
+    "ageDays": 7,
+    "expiresIn": null,
+    "category": "hiring",
+    "weight": 3
+  }
+]

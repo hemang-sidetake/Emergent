@@ -1,0 +1,81 @@
+[
+  {
+    "id": "cal-1",
+    "title": "Daily standup",
+    "time": "09:00",
+    "durationMin": 15,
+    "recurring": true,
+    "agenda": "Standing agenda",
+    "attendees": ["team"],
+    "notes": "Recurring standup"
+  },
+  {
+    "id": "cal-2",
+    "title": "1:1 with Ananya",
+    "time": "11:00",
+    "durationMin": 30,
+    "recurring": false,
+    "agenda": "1:1",
+    "attendees": ["Ananya Reddy"],
+    "notes": "Ananya sent 'we need to talk' Slack DM at 23:18 last night"
+  },
+  {
+    "id": "cal-3",
+    "title": "Lunch with Vikram",
+    "time": "13:00",
+    "durationMin": 60,
+    "recurring": false,
+    "agenda": null,
+    "attendees": ["Vikram"],
+    "notes": "Angel investor, no agenda"
+  },
+  {
+    "id": "cal-4",
+    "title": "Vox PR agency catch-up",
+    "time": "14:00",
+    "durationMin": 45,
+    "recurring": false,
+    "agenda": null,
+    "attendees": ["Vox PR"],
+    "notes": "Third reschedule. No agenda shared. Fee under renegotiation.",
+    "rescheduleCount": 3
+  },
+  {
+    "id": "cal-5",
+    "title": "Product review",
+    "time": "15:30",
+    "durationMin": 60,
+    "recurring": false,
+    "agenda": "Q3 roadmap review",
+    "attendees": ["Product team"]
+  },
+  {
+    "id": "cal-6",
+    "title": "Candidate interview — CTO role",
+    "time": "17:00",
+    "durationMin": 45,
+    "recurring": false,
+    "agenda": "Final interview",
+    "attendees": ["Candidate"]
+  },
+  {
+    "id": "cal-7",
+    "title": "Coffee with Naveen Iyer (Antler)",
+    "time": "18:30",
+    "durationMin": 30,
+    "recurring": false,
+    "agenda": "Catch up — term sheet shape",
+    "attendees": ["Naveen Iyer"],
+    "notes": "Priya set this up to revive a 3-week-cold thread"
+  },
+  {
+    "id": "cal-8",
+    "title": "Dinner with Mehul",
+    "time": "19:30",
+    "durationMin": 90,
+    "recurring": false,
+    "agenda": null,
+    "attendees": ["Mehul Shah"],
+    "personal": true
+  }
+]

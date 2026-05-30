@@ -1,0 +1,129 @@
+[
+  {
+    "id": "email-1",
+    "from": "Bharat Verma",
+    "fromEmail": "bharat@stellaris.vc",
+    "fromCategory": "investor",
+    "subject": "Lightspeed warm intro — confirmed",
+    "snippet": "Lightspeed warm intro confirmed. They're free Thursday or Friday this week. Last call from my side — let me know by tomorrow.",
+    "receivedAt": "Sunday evening",
+    "ageHours": 36,
+    "unanswered": true,
+    "investorTier": 1
+  },
+  {
+    "id": "email-2",
+    "from": "Rohit Bhat",
+    "fromEmail": "rohit@razorpay.com",
+    "fromCategory": "enterprise_customer",
+    "subject": "Need enterprise pitch deck by EOD today",
+    "snippet": "Need the enterprise pitch deck by EOD today so I can pre-share before Thursday's call. Otherwise we'll have to push.",
+    "receivedAt": "Monday morning",
+    "ageHours": 24,
+    "unanswered": true,
+    "dealValueINR": 4000000
+  },
+  {
+    "id": "email-3",
+    "from": "Anil Joshi",
+    "fromEmail": "anil@mumbaitrucking.in",
+    "fromCategory": "key_customer",
+    "subject": "Dashboard down 3 days — fleet managers escalating",
+    "snippet": "Dashboard has been down for our cluster for 3 days. Two of my fleet managers are escalating. Please advise.",
+    "receivedAt": "Sunday morning",
+    "ageHours": 72,
+    "unanswered": true,
+    "churnRisk": true
+  },
+  {
+    "id": "email-4",
+    "from": "Vikram",
+    "fromEmail": "vikram@angel.com",
+    "fromCategory": "investor",
+    "subject": "Monthly update?",
+    "snippet": "Hey, can you send through a monthly update? Sneha and Karthik asked me too.",
+    "receivedAt": "Yesterday",
+    "ageHours": 18,
+    "unanswered": true,
+    "investorTier": 3
+  },
+  {
+    "id": "email-5",
+    "from": "Sneha",
+    "fromEmail": "sneha@angel.com",
+    "fromCategory": "investor",
+    "subject": "Update?",
+    "snippet": "Update?",
+    "receivedAt": "Yesterday",
+    "ageHours": 14,
+    "unanswered": true,
+    "investorTier": 3
+  },
+  {
+    "id": "email-6",
+    "from": "Karthik",
+    "fromEmail": "karthik@angel.com",
+    "fromCategory": "investor",
+    "subject": "Q3 update would be lovely",
+    "snippet": "Hey Priya, Q3 update would be lovely when you get a moment.",
+    "receivedAt": "Yesterday",
+    "ageHours": 12,
+    "unanswered": true,
+    "investorTier": 3
+  },
+  {
+    "id": "email-7",
+    "from": "HR",
+    "fromEmail": "hr@stellaride.com",
+    "fromCategory": "internal",
+    "subject": "Two CTO candidates withdrew citing comp",
+    "snippet": "Two CTO candidates withdrew from pipeline citing comp.",
+    "receivedAt": "Yesterday",
+    "ageHours": 20,
+    "unanswered": true
+  },
+  {
+    "id": "email-8",
+    "from": "Vox PR",
+    "fromEmail": "team@voxpr.in",
+    "fromCategory": "vendor",
+    "subject": "Confirming Tuesday 2pm",
+    "snippet": "Confirming Tuesday 2pm. Looking forward.",
+    "receivedAt": "Yesterday",
+    "ageHours": 16,
+    "unanswered": true
+  },
+  {
+    "id": "email-9",
+    "from": "TechCrunch Daily",
+    "fromEmail": "newsletter@tc.com",
+    "fromCategory": "newsletter",
+    "subject": "Today's headlines",
+    "snippet": "...",
+    "receivedAt": "Today",
+    "ageHours": 4,
+    "unanswered": false
+  },
+  {
+    "id": "email-10",
+    "from": "Aman",
+    "fromEmail": "aman@college.edu",
+    "fromCategory": "personal",
+    "subject": "Lunch this weekend?",
+    "snippet": "Hey it's been a while, lunch this weekend?",
+    "receivedAt": "Yesterday",
+    "ageHours": 22,
+    "unanswered": true
+  },
+  {
+    "id": "email-11",
+    "from": "Recruiter (Talentwave)",
+    "fromEmail": "ops@talentwave.io",
+    "fromCategory": "spam",
+    "subject": "Senior hire pitch",
+    "snippet": "We have great senior candidates...",
+    "receivedAt": "Today",
+    "ageHours": 6,
+    "unanswered": true
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "slack-1",
+    "channel": "DM with Ananya",
+    "channelType": "dm",
+    "from": "Ananya Reddy",
+    "fromCategory": "internal_leader",
+    "text": "Hey, when you're free tomorrow, we need to talk about my role at Stellaride. I've been thinking.",
+    "timestamp": "Monday 23:18",
+    "ageHours": 11,
+    "unread": true,
+    "heat": "high"
+  },
+  {
+    "id": "slack-2",
+    "channel": "#leadership",
+    "channelType": "channel",
+    "from": "Karan",
+    "fromCategory": "internal",
+    "text": "Eng missed sprint goal again. Third sprint in a row.",
+    "timestamp": "Today 09:42",
+    "ageHours": 2,
+    "unread": true,
+    "heat": "medium"
+  },
+  {
+    "id": "slack-3",
+    "channel": "#fundraise",
+    "channelType": "channel",
+    "from": "Priya (self)",
+    "fromCategory": "self",
+    "text": "Bharat's intro email got pasted in but nobody followed up.",
+    "timestamp": "4 days ago",
+    "ageHours": 96,
+    "unread": false,
+    "heat": "stale"
+  },
+  {
+    "id": "slack-4",
+    "channel": "#all-hands",
+    "channelType": "channel",
+    "from": "Multiple",
+    "fromCategory": "team",
+    "text": "GIF wars — unrelated banter",
+    "timestamp": "Today 10:15",
+    "ageHours": 2,
+    "unread": false,
+    "heat": "low"
+  },
+  {
+    "id": "slack-5",
+    "channel": "DM with Karthik",
+    "channelType": "dm",
+    "from": "Karthik",
+    "fromCategory": "investor",
+    "text": "Loved your last newsletter. Can we catch up?",
+    "timestamp": "Yesterday 15:00",
+    "ageHours": 20,
+    "unread": true,
+    "heat": "low"
+  }
+]

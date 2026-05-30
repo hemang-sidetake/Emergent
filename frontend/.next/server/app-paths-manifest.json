@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/evening/page": "app/evening/page.js",
+  "/mockups/slack/page": "app/mockups/slack/page.js",
+  "/mockups/email/page": "app/mockups/email/page.js"
+}

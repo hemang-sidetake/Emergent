@@ -1,0 +1,37 @@
+{
+  "id": "priya",
+  "firstName": "Priya",
+  "lastName": "Mehrotra",
+  "role": "Founder & CEO",
+  "company": "Stellaride",
+  "stage": "Series A",
+  "monthsIn": 18,
+  "arrCr": 3.2,
+  "employees": 14,
+  "location": "Bangalore",
+  "raising": "$4M bridge",
+  "communicationStyle": "Direct, slightly impatient, decisive. Closes loops aggressively when in flow but loses them when overwhelmed.",
+  "preferredTools": ["Linear", "Notion"],
+  "ecosystem": {
+    "investors": [
+      { "name": "Bharat Verma", "firm": "Stellaris Ventures", "role": "Partner, led Series A", "weight": 5 },
+      { "name": "Vikram", "firm": "Angel", "role": "Seed angel", "weight": 3 },
+      { "name": "Sneha", "firm": "Angel", "role": "Seed angel", "weight": 3 },
+      { "name": "Karthik", "firm": "Angel", "role": "Seed angel", "weight": 3 },
+      { "name": "Naveen Iyer", "firm": "Antler", "role": "Passed on Series A, future-round watcher", "weight": 3 }
+    ],
+    "internal": [
+      { "name": "Ananya Reddy", "role": "VP Engineering, de facto #2", "weight": 5 },
+      { "name": "Karan", "role": "Engineering Manager", "weight": 2 },
+      { "name": "Sneha M", "role": "Engineering Manager", "weight": 2 },
+      { "name": "Aditi", "role": "Head of Customer Success", "weight": 3 }
+    ],
+    "customers": [
+      { "name": "Rohit Bhat", "firm": "Razorpay", "role": "Biggest enterprise prospect (₹40L+ ACV)", "weight": 5 },
+      { "name": "Anil Joshi", "firm": "Mumbai trucking cluster", "role": "Biggest existing customer, recently unhappy", "weight": 5 }
+    ],
+    "advisors": [
+      { "name": "Mehul Shah", "role": "Informal advisor, former co-founder turned friend", "weight": 2 }
+    ]
+  }
+}
